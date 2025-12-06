@@ -10,3 +10,4 @@ nav:
     - 首页: 'index.md'      
     - 脚本教程指南: 'guide.md' 
     - Docker Usage: 'docker.md'
+    - Alembic: 'alembic.md'

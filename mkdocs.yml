@@ -11,3 +11,4 @@ nav:
     - 脚本教程指南: 'guide.md' 
     - Docker Usage: 'docker.md'
     - Alembic: 'alembic.md'
+    - Jupyter Notebook: 'JupyterNotebook.md'

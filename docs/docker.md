@@ -98,3 +98,25 @@ docker compose version
 # Test it
 docker compose --help
 ```
+
+## docker dns 
+```
+sudo vi /etc/docker/daemon.json
+```
+```
+{
+  "dns": ["8.8.8.8", "1.1.1.1"]
+}
+```
+```
+sudo systemctl restart docker
+```
+
+
+## docker compose build 
+
+```
+docker-compose up -d --build --no-cache
+```
+
+

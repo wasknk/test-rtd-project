@@ -13,3 +13,4 @@ nav:
     - Alembic: 'alembic.md'
     - Jupyter Notebook: 'JupyterNotebook.md'
     - Git: 'git.md'
+    - Wsl: 'wsl.md'

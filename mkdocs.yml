@@ -18,3 +18,4 @@ nav:
     - Poetry: 'poetry.md'
     - Pip: 'pip.md'
     - Uvicorn: 'uvicorn.md'
+    - Copier: 'copier.md'

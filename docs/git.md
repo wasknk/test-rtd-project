@@ -15,6 +15,14 @@ git commit --amend
 git push --with-limit-lease
 ```
 
+## Git first pushes the branch and sets the upstream relationship to dev
+```
+git branch dev
+git switch dev
+...
+...
+git push -u origin dev
+```
 
 ## A Fix for an Accidental Commit and Push to Main
 

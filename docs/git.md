@@ -63,3 +63,8 @@ git remote -v
 git rebase upstream/main
 
 ```
+
+## git gui
+```
+git-gui
+```

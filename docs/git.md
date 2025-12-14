@@ -43,3 +43,15 @@ git reset --hard HEAD~1
 # 3. Overwrite the remote main branch (DANGEROUS STEP)
 git push --force-with-lease origin main
 ```
+
+## git fetch and set remote 
+```
+git remote add upstream https://github.com/xxx/xxxxx.git
+git fetch --all
+```
+
+## git rebase
+```
+git rebase upstream/main
+
+```

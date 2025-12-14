@@ -20,3 +20,4 @@ nav:
     - Uvicorn: 'uvicorn.md'
     - Copier: 'copier.md'
     - Type-hints: 'type-hints.md'
+    - Rich: 'rich.md'

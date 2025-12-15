@@ -24,3 +24,5 @@ nav:
     - Annotated: 'Annotated.md'
     - Flask: 'Flask.md'
     - Uv: 'uv.md'
+    - Gunicorn: 'gunicorn.md'
+    #- Celery: 'celery.md'

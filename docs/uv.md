@@ -8,22 +8,32 @@ pip install uv
 pipx install uv
 
 ```
-## create venv
-```
-uv venv
-```
 
+## Usage 
+
+```bash
+## create venv
+uv venv
+## activate venv
+source .venv/bin/activate
 ## install all the dependencies and delete ones that are not in the list
-```
 uv sync
 ```
 
-## install and update dependencies
+## See what installed
 ```
-uv install
+uv pip list
 ```
 
-## generate requirements.txt
+ 
+## Just generate a requirements.txt for CI/CD
+
 ```
 uv pip compile pyproject.toml -o requirements.txt
+```
+
+
+## build 
+```
+uv build .
 ```

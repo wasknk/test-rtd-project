@@ -89,12 +89,27 @@ show_contexts = true
 
 ## Usage 
 
-``` 
-uv pip compile pyproject.toml -o requirements.txt
-uv pip sync requirements.txt
+```
+uv venv
+source .venv/bin/activate
+uv sync
 ```
 
+## See what installed
 ```
-uv pip compile pyproject.toml --dev -o requirements-dev.txt
-uv pip sync requirements-dev.txt
+uv pip list
 ```
+
+ 
+## Just generate a requirements.txt for CI/CD
+
+```
+uv pip compile pyproject.toml -o requirements.txt
+```
+
+
+## build 
+```
+uv build .
+```
+
